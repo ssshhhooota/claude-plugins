@@ -10,8 +10,8 @@
     {
       "name": "git-workflow-rules",
       "source": {
-        "source": "github",
-        "repo": "ssshhhooota/claude-plugins",
+        "source": "git-subdir",
+        "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "git-workflow-rules",
         "ref": "claude-plugins-v1.0.0",
         "sha": "47227bdec88c1a25142790169ccb491637d8e356"
@@ -36,8 +36,8 @@
     {
       "name": "mentor",
       "source": {
-        "source": "github",
-        "repo": "ssshhhooota/claude-plugins",
+        "source": "git-subdir",
+        "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
         "ref": "claude-plugins-v1.0.0",
         "sha": "47227bdec88c1a25142790169ccb491637d8e356"
