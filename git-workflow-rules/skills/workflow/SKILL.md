@@ -1,0 +1,29 @@
+---
+name: workflow
+description: Use when starting or finishing any implementation task - enforces worktree creation, refactoring, security review, and rules file management
+---
+
+# Workflow Rules
+
+## 実装前
+
+- コード変更を伴う作業を開始する前に、必ず git worktree を作成すること（`git-worktree` スキルのルールに準拠）。
+
+## 実装後 — リファクタリング
+
+- 重複コードの排除
+- 命名の一貫性（変数・関数・ファイル）
+- 不要なコード・コメントの削除
+- 関数・クラスの責務が単一になっているか確認
+- 複雑な条件式の整理・分割
+
+## 実装後 — セキュリティレビュー
+
+- 入力値のバリデーション漏れがないか
+- 機密情報（APIキー・トークン等）のハードコーディングがないか
+- 認証・認可の抜け漏れ
+- OWASP Top 10 の主要リスク（SQLインジェクション・XSS等）
+
+## ルール管理
+
+- ルールを追加・変更する際は、memory システムではなくプロジェクトのルールファイル（例: `.claude/rules/` 配下）として保存すること。

@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "This session uses the git-workflow-rules plugin. Follow all loaded skills for git branching, commits, worktrees, and workflow."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mentor",
+  "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
+  "version": "1.0.0",
+  "author": {
+    "name": "ssshhhooota"
+  },
+  "homepage": "https://github.com/ssshhhooota/claude-plugins/tree/main/mentor",
+  "repository": "https://github.com/ssshhhooota/claude-plugins/tree/main/mentor",
+  "license": "MIT",
+  "keywords": [
+    "mentor",
+    "learning",
+    "code-review",
+    "japanese"
+  ]
+}

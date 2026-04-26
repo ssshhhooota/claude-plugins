@@ -1,0 +1,19 @@
+{
+  "name": "git-workflow-rules",
+  "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
+  "version": "1.0.0",
+  "author": {
+    "name": "ssshhhooota"
+  },
+  "homepage": "https://github.com/ssshhhooota/claude-plugins/tree/main/git-workflow-rules",
+  "repository": "https://github.com/ssshhhooota/claude-plugins/tree/main/git-workflow-rules",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "workflow",
+    "conventional-commits",
+    "branching",
+    "worktree",
+    "pull-request"
+  ]
+}
