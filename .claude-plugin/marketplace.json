@@ -40,7 +40,7 @@
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
         "ref": "v1.0.3",
-        "sha": "f93524e4e4ee81d316d46404d16a455503304f00"
+        "sha": "5287e910a2ea807ce371b72b9fbb91455e2448ae"
       },
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
       "version": "1.0.3",
