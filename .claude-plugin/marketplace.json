@@ -39,11 +39,11 @@
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
-        "ref": "v1.0.1",
-        "sha": "43fe6fa00a4648e1515a0685be370f9e5da44ce5"
+        "ref": "mentor-v1.0.2",
+        "sha": "f93524e4e4ee81d316d46404d16a455503304f00"
       },
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "ssshhhooota"
       },
@@ -54,7 +54,8 @@
         "mentor",
         "learning",
         "code-review",
-        "japanese"
+        "japanese",
+        "skill"
       ]
     }
   ]
