@@ -1,13 +1,8 @@
----
-name: workflow
-description: Use when starting or finishing any implementation task - enforces worktree creation, refactoring, security review, and rules file management
----
-
 # Workflow Rules
 
 ## 実装前
 
-- コード変更を伴う作業を開始する前に、必ず git worktree を作成すること（`git-worktree` スキルのルールに準拠）。
+- コード変更を伴う作業を開始する前に、必ず git worktree を作成すること（git-worktree ルールに準拠）。
 
 ## 実装後 — リファクタリング
 

@@ -1,8 +1,3 @@
----
-name: git-rebase
-description: Use when updating feature branches or resolving conflicts - enforces rebase strategy and safe force push
----
-
 # Git Rebase Rules
 
 ## ブランチ更新戦略

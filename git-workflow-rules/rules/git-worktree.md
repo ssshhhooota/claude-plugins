@@ -1,12 +1,7 @@
----
-name: git-worktree
-description: Use when creating or managing git worktrees - enforces gwt alias usage, naming conventions, and .worktrees/ placement
----
-
 # Git Worktree Rules
 
 - `gwt` コマンド（`git worktree` のエイリアス）を使うこと
-- worktree 名・ブランチ名は同じにして作業に沿った命名にすること（`git-branch` スキルのルールに準拠）
+- worktree 名・ブランチ名は同じにして作業に沿った命名にすること（git-branch ルールに準拠）
 - worktree の配置は `.worktrees/` とすること
 
 ## worktree 作成

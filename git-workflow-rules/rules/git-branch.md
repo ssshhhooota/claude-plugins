@@ -1,25 +1,14 @@
----
-name: git-commit
-description: Use when creating git commits - enforces Conventional Commits format with Japanese descriptions and Breaking Changes notation
----
-
-# Git Commit Rules
-
-Conventional Commits 仕様に準拠すること。
+# Git Branch Rules
 
 ## フォーマット
 
 ```
-<type>(<scope>): <description>
-
-[body]
-
-[footer]
+<type>-<description_with_underscores>
 ```
 
-- `scope` はオプション
-- `description` は日本語で記述すること
-- `body` / `footer` も日本語で記述すること（必要な場合のみ記載）
+- `/` は使用しない
+- type とその直後の区切りは `-`
+- description 内の単語の区切りは `_`
 
 ## type 一覧
 
@@ -39,25 +28,20 @@ Conventional Commits 仕様に準拠すること。
 | hotfix   | 緊急修正                                             |
 | release  | リリース準備                                         |
 
-## Breaking Changes
+## ブランチ作成
 
-type/scope の直後に `!` を付けるか、footer に `BREAKING CHANGE:` を記載する。
-
-```
-feat!: 非推奨のAPIエンドポイントを削除する
-```
+ベースブランチと `--no-track` を必ず指定する。
 
 ```
-feat(auth): トークン形式を変更する
-
-BREAKING CHANGE: トークン形式をJWTからopaqueストリングに変更
+git switch -c <branch-name> origin/master --no-track
 ```
 
 ## 例
 
 ```
-feat: issue本文エディタを追加する
-fix: レートリミットエラーをハンドリングする
-docs: READMEのインストール手順を更新する
-refactor: view ヘルパーを別ファイルに分割する
+feat-issue_80_issue_body_editor
+fix-login_null_pointer
+docs-update_readme
+chore-upgrade_go_version
+hotfix-crash_on_empty_pr_list
 ```

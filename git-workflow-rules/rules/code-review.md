@@ -1,8 +1,3 @@
----
-name: code-review
-description: Use when reviewing or preparing to submit a pull request - enforces self-review checklist and reviewer guidelines
----
-
 # Code Review Rules
 
 ## レビュイー（PR 作成者）
@@ -27,14 +22,5 @@ PR 提出前にセルフレビューを行うこと:
 
 ## コメントの書き方
 
-コメントには「提案」か「必須修正」かを明示すること:
-
 - `nit:` — 細かい提案（マージをブロックしない）
 - `MUST:` — 必須修正（マージ前に対応が必要）
-
-例:
-
-```
-nit: この変数名はもう少し具体的にできそうです
-MUST: SQLインジェクションの可能性があります。プレースホルダーを使ってください
-```

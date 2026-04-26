@@ -1,8 +1,3 @@
----
-name: github-pr
-description: Use when creating GitHub pull requests - enforces PR title format, description template usage, and section preservation
----
-
 # GitHub PR Rules
 
 ## タイトル
