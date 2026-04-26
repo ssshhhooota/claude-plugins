@@ -13,7 +13,7 @@
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "git-workflow-rules",
-        "ref": "claude-plugins-v1.0.0",
+        "ref": "v1.0.0",
         "sha": "47227bdec88c1a25142790169ccb491637d8e356"
       },
       "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
@@ -39,7 +39,7 @@
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
-        "ref": "claude-plugins-v1.0.0",
+        "ref": "v1.0.0",
         "sha": "47227bdec88c1a25142790169ccb491637d8e356"
       },
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
