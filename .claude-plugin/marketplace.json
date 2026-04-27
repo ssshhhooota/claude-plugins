@@ -13,11 +13,11 @@
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "git-workflow-rules",
-        "ref": "v1.0.3",
+        "ref": "v1.0.4",
         "sha": "4b67e1eae907372fce3a984554bba070eed4a218"
       },
       "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "ssshhhooota"
       },
@@ -39,11 +39,11 @@
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
-        "ref": "v1.0.3",
+        "ref": "v1.0.4",
         "sha": "5287e910a2ea807ce371b72b9fbb91455e2448ae"
       },
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "ssshhhooota"
       },
