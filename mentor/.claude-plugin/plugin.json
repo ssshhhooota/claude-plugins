@@ -1,8 +1,4 @@
 {
   "name": "mentor",
-  "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
-  "author": {
-    "name": "ssshhhooota"
-  },
-  "version": "1.0.4"
+  "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）"
 }

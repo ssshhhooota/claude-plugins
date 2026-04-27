@@ -1,8 +1,4 @@
 {
   "name": "git-workflow-rules",
-  "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
-  "author": {
-    "name": "ssshhhooota"
-  },
-  "version": "1.0.4"
+  "description": "Git workflow rules for branch naming, commits, worktrees, and PRs"
 }

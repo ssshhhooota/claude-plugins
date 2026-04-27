@@ -9,54 +9,25 @@
   "plugins": [
     {
       "name": "git-workflow-rules",
+      "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "git-workflow-rules",
         "ref": "v1.0.4",
         "sha": "611e39ca28a318b80e2fc92d0ed5cb822908573b"
-      },
-      "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
-      "version": "1.0.4",
-      "author": {
-        "name": "ssshhhooota"
-      },
-      "homepage": "https://github.com/ssshhhooota/claude-plugins/tree/main/git-workflow-rules",
-      "repository": "https://github.com/ssshhhooota/claude-plugins/tree/main/git-workflow-rules",
-      "license": "MIT",
-      "keywords": [
-        "git",
-        "workflow",
-        "conventional-commits",
-        "branching",
-        "worktree",
-        "pull-request"
-      ]
+      }
     },
     {
       "name": "mentor",
+      "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ssshhhooota/claude-plugins.git",
         "path": "mentor",
         "ref": "v1.0.4",
         "sha": "611e39ca28a318b80e2fc92d0ed5cb822908573b"
-      },
-      "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
-      "version": "1.0.4",
-      "author": {
-        "name": "ssshhhooota"
-      },
-      "homepage": "https://github.com/ssshhhooota/claude-plugins/tree/main/mentor",
-      "repository": "https://github.com/ssshhhooota/claude-plugins/tree/main/mentor",
-      "license": "MIT",
-      "keywords": [
-        "mentor",
-        "learning",
-        "code-review",
-        "japanese",
-        "skill"
-      ]
+      }
     }
   ]
 }
