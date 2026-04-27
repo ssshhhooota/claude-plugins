@@ -1,5 +1,5 @@
 {
   "name": "git-workflow-rules",
-  "version": "v1.0.6",
+  "version": "v1.0.7",
   "description": "Git workflow rules for branch naming, commits, worktrees, and PRs"
 }
