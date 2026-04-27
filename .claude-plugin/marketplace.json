@@ -9,27 +9,13 @@
   "plugins": [
     {
       "name": "git-workflow-rules",
-      "version": "v1.0.6",
       "description": "Git workflow rules for branch naming, commits, worktrees, and PRs",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/ssshhhooota/claude-plugins.git",
-        "path": "git-workflow-rules",
-        "ref": "v1.0.6",
-        "sha": "dcaea106a5694fb1f922b489b404c26d1e257f96"
-      }
+      "source": "./git-workflow-rules"
     },
     {
       "name": "mentor",
-      "version": "v1.0.6",
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/ssshhhooota/claude-plugins.git",
-        "path": "mentor",
-        "ref": "v1.0.6",
-        "sha": "dcaea106a5694fb1f922b489b404c26d1e257f96"
-      }
+      "source": "./mentor"
     }
   ]
 }
