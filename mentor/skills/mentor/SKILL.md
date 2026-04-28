@@ -1,6 +1,11 @@
 ---
 name: mentor
 description: Use when the user invokes /mentor - provides comprehensive Japanese mentoring including code review, Q&A, learning guidance, roadmap, and next steps. Adapts style to user level (Socratic for beginners, direct for intermediates).
+allowed-tools:
+  - AskUserQuestion
+  - Read
+  - Grep
+  - Glob
 ---
 
 # メンタースキル
