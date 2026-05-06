@@ -16,6 +16,11 @@
       "name": "mentor",
       "description": "コードレビュー・Q&A・学習ロードマップ・次ステップ提案を提供（日本語専用）",
       "source": "./mentor"
+    },
+    {
+      "name": "create-learning-roadmap",
+      "description": "ロードマップ・問題集・GitHub Issue 生成",
+      "source": "./create-learning-roadmap"
     }
   ]
 }

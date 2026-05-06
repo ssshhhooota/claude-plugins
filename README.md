@@ -13,6 +13,7 @@ claude plugin marketplace add ssshhhooota/claude-plugins
 # 2. プラグインをインストール
 claude plugin install git-workflow-rules@ssshhhooota-claude-plugins
 claude plugin install mentor@ssshhhooota-claude-plugins
+claude plugin install create-learning-roadmap@ssshhhooota-claude-plugins
 ```
 
 ### Claude Code 内（スラッシュコマンド）
@@ -21,6 +22,7 @@ claude plugin install mentor@ssshhhooota-claude-plugins
 /plugin marketplace add ssshhhooota/claude-plugins
 /plugin install git-workflow-rules@ssshhhooota-claude-plugins
 /plugin install mentor@ssshhhooota-claude-plugins
+/plugin install create-learning-roadmap@ssshhhooota-claude-plugins
 ```
 
 インストール後は `/reload-plugins` でスキル・エージェントを有効化する。
@@ -31,6 +33,7 @@ claude plugin install mentor@ssshhhooota-claude-plugins
 |-----------|------|
 | [git-workflow-rules](./git-workflow-rules/) | ブランチ命名・コミット・worktree・PR のワークフロールール |
 | [mentor](./mentor/) | コードレビュー・Q&A・学習ロードマップ・次ステップ提案（日本語専用） |
+| [create-learning-roadmap](./create-learning-roadmap/) | ロードマップ・問題集・GitHub Issue 生成 |
 
 ## リポジトリ構成
 
@@ -42,10 +45,14 @@ claude-plugins/
 │   ├── .claude-plugin/
 │   │   └── plugin.json       # プラグインメタデータ
 │   └── skills/               # 各スキル定義
-└── mentor/
+├── mentor/
+│   ├── .claude-plugin/
+│   │   └── plugin.json       # プラグインメタデータ
+│   └── agents/               # エージェント定義
+└── create-learning-roadmap/
     ├── .claude-plugin/
     │   └── plugin.json       # プラグインメタデータ
-    └── agents/               # エージェント定義
+    └── skills/               # 各スキル定義
 ```
 
 ## リリース手順
