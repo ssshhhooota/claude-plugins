@@ -159,22 +159,6 @@ Issue は採点用ではなく、**手を動かしながら概念を習得する
 
 ## Issue 作成（実行手順）
 
-### ラベル作成
-
-Issue 作成前に必要なラベルが存在しなければ作成する:
-
-```bash
-gh label create "学習" --color "#0075ca" --description "学習用 Issue" 2>/dev/null || true
-gh label create "<トピック>" --color "#e4e669" --description "<トピック>学習" 2>/dev/null || true
-gh label create "初級" --color "#d93f0b" 2>/dev/null || true
-gh label create "中級" --color "#e99695" 2>/dev/null || true
-gh label create "上級" --color "#b60205" 2>/dev/null || true
-gh label create "特訓級" --color "#5319e7" --description "個別依頼の特訓問題集" 2>/dev/null || true
-for i in $(seq 1 9); do
-  gh label create "phase-$i" --color "#0052cc" --description "Phase $i" 2>/dev/null || true
-done
-```
-
 ### Phase Issue 本文テンプレ
 
 `<問題N>` には「問題の書き方 → 統一フォーマット」のブロックを問題数だけ繰り返し並べる。
@@ -198,8 +182,7 @@ gh issue create \
 - [ ] 解答例と自分の実装を比較した
 - [ ] 概念を自分の言葉で説明できる
 ISSUE_EOF
-)" \
-  --label "学習,<トピック>,<レベル>,phase-N"
+)"
 ```
 
 ### sub-issues 紐付けコマンド
